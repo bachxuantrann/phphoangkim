@@ -1,0 +1,1847 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="utf-8" />
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+        <title>Nhà Hàng Hoàng Kim</title>
+        <meta content="" name="description" />
+        <meta content="" name="keywords" />
+
+        <!-- Favicons -->
+        <link href="assets/img/favicon-32x32.png" rel="icon" />
+        <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+        <!-- Google Fonts -->
+        <link
+            href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+            rel="stylesheet"
+        />
+
+        <!-- Thư viện Vendor tích hợp boostrap 5 -->
+        <link
+            href="assets/vendor/animate.css/animate.min.css"
+            rel="stylesheet"
+        />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link
+            href="assets/vendor/bootstrap/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/boxicons/css/boxicons.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/glightbox/css/glightbox.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="assets/vendor/swiper/swiper-bundle.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- file CSS chính của Trang -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <style>
+            .book-a-table .php-email-form {
+                width: 100%;
+            }
+
+            .book-a-table .php-email-form .form-group {
+                padding-bottom: 8px;
+            }
+
+            .book-a-table .php-email-form .validate {
+                display: none;
+                color: red;
+                margin: 0 0 15px 0;
+                font-weight: 400;
+                font-size: 13px;
+            }
+
+            .book-a-table .php-email-form .error-message {
+                display: none;
+                color: #fff;
+                background: #ed3c0d;
+                text-align: left;
+                padding: 15px;
+                font-weight: 600;
+            }
+
+            .book-a-table .php-email-form .error-message br + br {
+                margin-top: 25px;
+            }
+
+            .book-a-table .php-email-form .sent-message {
+                display: none;
+                color: #fff;
+                background: #18d26e;
+                text-align: center;
+                padding: 15px;
+                font-weight: 600;
+            }
+
+            .book-a-table .php-email-form .loading {
+                display: none;
+                text-align: center;
+                padding: 15px;
+            }
+
+            .book-a-table .php-email-form .loading:before {
+                content: "";
+                display: inline-block;
+                border-radius: 50%;
+                width: 24px;
+                height: 24px;
+                margin: 0 10px -6px 0;
+                border: 3px solid #cda45e;
+                border-top-color: #1a1814;
+                -webkit-animation: animate-loading 1s linear infinite;
+                animation: animate-loading 1s linear infinite;
+            }
+
+            .book-a-table .php-email-form input,
+            .book-a-table .php-email-form .form-select,
+            .book-a-table .php-email-form textarea {
+                border-radius: 0;
+                box-shadow: none;
+                font-size: 14px;
+                background: #0c0b09;
+                border-color: #625b4b;
+                color: white;
+            }
+
+            .book-a-table .php-email-form input::-webkit-input-placeholder,
+            .book-a-table .php-email-form,
+            .book-a-table
+                .php-email-form
+                .form-select::-webkit-input-placeholder,
+            .book-a-table .php-email-form textarea::-webkit-input-placeholder {
+                color: white;
+            }
+
+            .book-a-table .php-email-form input::-moz-placeholder,
+            .book-a-table .php-email-form .form-select::-moz-placeholder,
+            .book-a-table .php-email-form textarea::-moz-placeholder {
+                color: white;
+            }
+
+            .book-a-table .php-email-form input::placeholder,
+            .book-a-table .php-email-form .form-select::placeholder,
+            .book-a-table .php-email-form textarea::placeholder {
+                color: white !important;
+            }
+
+            .book-a-table .php-email-form input:focus,
+            .book-a-table .php-email-form .form-select:focus,
+            .book-a-table .php-email-form textarea:focus {
+                border-color: #cda45e;
+            }
+
+            .book-a-table .php-email-form input,
+            .book-a-table .php-email-form .form-select {
+                height: 44px;
+            }
+
+            .book-a-table .php-email-form textarea {
+                padding: 10px 12px;
+            }
+
+            .book-a-table .php-email-form button[type="submit"] {
+                background: #cda45e;
+                border: 0;
+                padding: 10px 35px;
+                color: #fff;
+                transition: 0.4s;
+                border-radius: 50px;
+            }
+
+            .book-a-table .php-email-form button[type="submit"]:hover {
+                background: #d3af71;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!-- ======= Top Bar ======= -->
+        <div id="topbar" class="d-flex align-items-center fixed-top">
+            <div
+                class="container d-flex justify-content-center justify-content-md-between"
+            >
+                <div class="contact-info d-flex align-items-center">
+                    <i class="bi bi-phone d-flex align-items-center"
+                        ><span>033 678 9051</span></i
+                    >
+                    <i class="bi bi-clock d-flex align-items-center ms-4"
+                        ><span> Thứ Hai - Chủ Nhật: 11AM - 23PM</span></i
+                    >
+                </div>
+
+                <!-- <div class="languages d-none d-md-flex align-items-center">
+                    <ul>
+                        <li>En</li>
+                        <li><a href="#">De</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+
+        <!-- ======= Header ======= -->
+        <header id="header" class="fixed-top d-flex align-items-center">
+            <div
+                class="container-fluid container-xl d-flex align-items-center justify-content-lg-between"
+            >
+                <h1 class="logo me-auto me-lg-0">
+                    <a href="index.html">Hoàng Kim</a>
+                </h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+                <nav id="navbar" class="navbar order-last order-lg-0">
+                    <ul>
+                        <li>
+                            <a class="nav-link scrollto active" href="#hero"
+                                >Trang Chủ</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#about"
+                                >Về Chúng Tôi</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#menu"
+                                >Thực Đơn</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#specials"
+                                >Đặc Biệt</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#events"
+                                >Sự Kiện</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#chefs"
+                                >Đầu Bếp</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#gallery"
+                                >Hình Ảnh</a
+                            >
+                        </li>
+                        <li>
+                            <a class="nav-link scrollto" href="#contact"
+                                >Liên Hệ</a
+                            >
+                        </li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+                <!-- .navbar -->
+                <a
+                    href="#book-a-table"
+                    class="book-a-table-btn scrollto d-none d-lg-flex"
+                    >Đặt Bàn</a
+                >
+            </div>
+        </header>
+        <!-- End Header -->
+
+        <!-- ======= Hero Section ======= -->
+        <section id="hero" class="d-flex align-items-center">
+            <div
+                class="container position-relative text-center text-lg-start"
+                data-aos="zoom-in"
+                data-aos-delay="100"
+            >
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1>Nhà Hàng <span>Hoàng Kim</span></h1>
+                        <h2>
+                            Mang đến cho quý khách trải nghiệm món ăn tuyệt vời
+                        </h2>
+
+                        <div class="btns">
+                            <a
+                                href="#menu"
+                                class="btn-menu animated fadeInUp scrollto"
+                                >Thực đơn của Chúng tôi</a
+                            >
+                            <a
+                                href="#book-a-table"
+                                class="btn-book animated fadeInUp scrollto"
+                                >Đặt Bàn</a
+                            >
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 d-flex align-items-center justify-content-center position-relative"
+                        data-aos="zoom-in"
+                        data-aos-delay="200"
+                    >
+                        <a
+                            href="https://www.youtube.com/watch?v=GlrxcuEDyF8"
+                            class="glightbox play-btn"
+                        ></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Hero -->
+
+        <main id="main">
+            <!-- ======= About Section ======= -->
+            <section id="about" class="about">
+                <div class="container" data-aos="fade-up">
+                    <div class="row">
+                        <div
+                            class="col-lg-6 order-1 order-lg-2"
+                            data-aos="zoom-in"
+                            data-aos-delay="100"
+                        >
+                            <div class="about-img">
+                                <img src="assets/img/about.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div
+                            class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
+                        >
+                            <h3>Nhà Hàng Hoàng Kim</h3>
+                            <p class="fst-italic">
+                                Mang đến những món ăn tinh tế từ nền ẩm thực
+                                Việt Nam, kết hợp giữa hương vị truyền thống và
+                                sự sáng tạo hiện đại.
+                            </p>
+                            <ul>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Cung cấp
+                                    trải nghiệm ẩm thực tuyệt vời
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Nguyên
+                                    liệu tươi ngon và chất lượng nhất.
+                                </li>
+                                <li>
+                                    <i class="bi bi-check-circle"></i> Đội ngũ
+                                    đầu bếp chuyên nghiệp, phục vụ tận tâm.
+                                </li>
+                            </ul>
+                            <p>
+                                Không gian nhà hàng ấm cúng và sang trọng, là
+                                nơi lý tưởng để bạn thư giãn và thưởng thức bữa
+                                ăn cùng gia đình và bạn bè.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End About Section -->
+
+            <!-- ======= Why Us Section ======= -->
+            <section id="why-us" class="why-us">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Tại sao</h2>
+                        <p>Tại sao chọn Nhà Hàng Hoàng Kim</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div
+                                class="box"
+                                data-aos="zoom-in"
+                                data-aos-delay="100"
+                            >
+                                <span>01</span>
+                                <h4>Nguyên liệu tươi ngon, đảm bảo vệ sinh</h4>
+                                <p>
+                                    "Chúng tôi luôn sử dụng nguyên liệu tươi
+                                    ngon, được chọn lọc kỹ lưỡng từ các nhà cung
+                                    cấp uy tín, đảm bảo chất lượng tốt nhất cho
+                                    từng món ăn."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-4 mt-lg-0">
+                            <div
+                                class="box"
+                                data-aos="zoom-in"
+                                data-aos-delay="200"
+                            >
+                                <span>02</span>
+                                <h4>Đội Ngũ Đầu Bếp Kinh Nghiệm</h4>
+                                <p>
+                                    "Đội ngũ đầu bếp của chúng tôi có nhiều năm
+                                    kinh nghiệm trong ẩm thực Việt Nam, luôn
+                                    sáng tạo và mang đến những món ăn mới lạ,
+                                    hấp dẫn."
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 mt-4 mt-lg-0">
+                            <div
+                                class="box"
+                                data-aos="zoom-in"
+                                data-aos-delay="300"
+                            >
+                                <span>03</span>
+                                <h4>Không Gian Ấm Cúng và Sang Trọng</h4>
+                                <p>
+                                    "Không gian nhà hàng ấm cúng và sang trọng,
+                                    lý tưởng cho các buổi tiệc gia đình và gặp
+                                    gỡ bạn bè trong một bầu không khí thân
+                                    thiện."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Why Us Section -->
+
+            <!-- ======= Menu Section ======= -->
+            <section id="menu" class="menu section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Thực Đơn</h2>
+                        <p>Tham khảo thực đơn</p>
+                    </div>
+
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-12 d-flex justify-content-center">
+                            <ul id="menu-flters">
+                                <li data-filter="*" class="filter-active">
+                                    Tất cả
+                                </li>
+                                <li data-filter=".filter-starters">Khai Vị</li>
+                                <li data-filter=".filter-salads">Món Chính</li>
+                                <li data-filter=".filter-specialty">
+                                    Tráng Miệng
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div
+                        class="row menu-container"
+                        data-aos="fade-up"
+                        data-aos-delay="200"
+                    >
+                        <div class="col-lg-6 menu-item filter-starters">
+                            <img
+                                src="assets/img/menu/goi_cuon_tom_thit.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Gỏi Cuốn Tôm Thịt</a
+                                ><span>100.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Món gỏi tươi ngon kết hợp giữa tôm, thịt heo,
+                                bún và rau sống cuốn trong bánh tráng mềm chấm
+                                với nước chấm chua ngọt
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-specialty">
+                            <img
+                                src="assets/img/menu/flan_caramel.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Bánh Flan Caramel</a
+                                ><span>25.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Lorem, deren, trataro, filede, nerada
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-starters">
+                            <img
+                                src="assets/img/menu/cha_gio_hai_san"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Chả Giò Hải Sản</a
+                                ><span>80.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Chả giò giòn tan, nhân hải sản tươi ngon, kết
+                                hợp giữa tôm, mực và rau củ, ăn kèm với nước mắm
+                                pha đậm đà.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-salads">
+                            <img
+                                src="assets/img/menu/bo_luc_lac.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Bò Lúc Lắc</a
+                                ><span>200.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Thịt bò mềm, được cắt thành từng miếng vuông,
+                                xào với ớt chuông, hành tây, và sốt tiêu đen
+                                thơm lừng, ăn kèm với khoai tây chiên.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-specialty">
+                            <img
+                                src="assets/img/menu/dia_trai_cay.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Đĩa Trái Cây</a
+                                ><span>80.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Grilled chicken with provolone, artichoke
+                                hearts, and roasted red pesto
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-starters">
+                            <img
+                                src="assets/img/menu/sup_bap_cua.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Súp Bắp Cua</a
+                                ><span>80.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Món súp thanh đạm, ngọt từ thịt cua tươi và bắp
+                                non, được nêm nếm nhẹ nhàng, thích hợp cho mọi
+                                khẩu vị.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-salads">
+                            <img
+                                src="assets/img/menu/ca_hoi_nuong_sot_chanh_day.webp"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Cá Hồi Nướng Sốt Chanh Dây</a
+                                ><span>250.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Cá hồi tươi nướng vừa chín tới, phủ sốt chanh
+                                dây chua ngọt, tạo nên hương vị độc đáo và thanh
+                                mát.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-salads">
+                            <img
+                                src="assets/img/menu/ga_nuong_mat_ong.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Gà nướng mật ong</a
+                                ><span>250.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Gà được tẩm ướp mật ong và gia vị, nướng vàng
+                                giòn, giữ được độ mọng nước bên trong, thơm ngon
+                                từng miếng.
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 menu-item filter-specialty">
+                            <img
+                                src="assets/img/menu/che_khuc_bach.jpg"
+                                class="menu-img"
+                                alt=""
+                            />
+                            <div class="menu-content">
+                                <a href="#">Chè Khúc Bạch</a
+                                ><span>30.000VNĐ</span>
+                            </div>
+                            <div class="menu-ingredients">
+                                Plump lobster meat, mayo and crisp lettuce on a
+                                toasted bulky roll
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Menu Section -->
+
+            <!-- ======= Specials Section ======= -->
+            <section id="specials" class="specials">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Đặc Trưng</h2>
+                        <p>Tham Khảo Món Ăn Đặc Trưng</p>
+                    </div>
+
+                    <div class="row" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col-lg-3">
+                            <ul class="nav nav-tabs flex-column">
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link active show"
+                                        data-bs-toggle="tab"
+                                        href="#tab-1"
+                                        >Súp Bắp Cua</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        data-bs-toggle="tab"
+                                        href="#tab-2"
+                                        >Bò Lúc Lắc</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        data-bs-toggle="tab"
+                                        href="#tab-3"
+                                        >Cá Hồi Nướng Sốt Chanh Dây</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        data-bs-toggle="tab"
+                                        href="#tab-4"
+                                        >Gà Nướng Mật Ong</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        class="nav-link"
+                                        data-bs-toggle="tab"
+                                        href="#tab-5"
+                                        >Chè Khúc Bạch</a
+                                    >
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-9 mt-4 mt-lg-0">
+                            <div class="tab-content">
+                                <div class="tab-pane active show" id="tab-1">
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-8 details order-2 order-lg-1"
+                                        >
+                                            <h3>Súp Bắp Cua</h3>
+                                            <p class="fst-italic">
+                                                Món súp thanh đạm, kết hợp vị
+                                                ngọt tự nhiên từ thịt cua tươi
+                                                và bắp non, được nêm nếm nhẹ
+                                                nhàng.
+                                            </p>
+                                            <p>
+                                                Súp bắp cua là một trong những
+                                                món khai vị được yêu thích nhờ
+                                                hương vị thanh ngọt từ thịt cua
+                                                tươi và bắp non. Món ăn mang lại
+                                                sự thanh đạm nhưng vẫn đầy đủ
+                                                dưỡng chất, phù hợp với mọi độ
+                                                tuổi. Nước dùng được ninh từ
+                                                xương, tạo nên vị ngọt tự nhiên,
+                                                không quá đậm, giúp bạn khởi đầu
+                                                bữa ăn một cách nhẹ nhàng và ấm
+                                                áp.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="col-lg-4 text-center order-1 order-lg-2"
+                                        >
+                                            <img
+                                                src="assets/img/menu/sup_bap_cua.jpg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab-2">
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-8 details order-2 order-lg-1"
+                                        >
+                                            <h3>Bò Lúc Lắc</h3>
+                                            <p class="fst-italic">
+                                                Thịt bò mềm, được xào cùng ớt
+                                                chuông và hành tây, thấm đẫm sốt
+                                                tiêu đen đậm đà, ăn kèm với
+                                                khoai tây chiên.
+                                            </p>
+                                            <p>
+                                                Bò lúc lắc là món ăn đặc trưng
+                                                của ẩm thực Việt, với những
+                                                miếng thịt bò được cắt vuông vức
+                                                và xào chín tới, kết hợp cùng ớt
+                                                chuông và hành tây giòn ngọt.
+                                                Đặc trưng của món này nằm ở
+                                                hương vị sốt tiêu đen thơm nồng,
+                                                thấm đều từng miếng thịt bò mềm
+                                                mại. Món ăn thường được phục vụ
+                                                kèm với khoai tây chiên giòn,
+                                                tạo nên sự cân bằng hoàn hảo
+                                                giữa các hương vị.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="col-lg-4 text-center order-1 order-lg-2"
+                                        >
+                                            <img
+                                                src="assets/img/menu/bo_luc_lac.jpg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab-3">
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-8 details order-2 order-lg-1"
+                                        >
+                                            <h3>Cá Hồi Nướng Sốt Chanh Dây</h3>
+                                            <p class="fst-italic">
+                                                Cá hồi tươi nướng vừa chín tới,
+                                                phủ sốt chanh dây chua ngọt, tạo
+                                                hương vị độc đáo và thanh mát.
+                                            </p>
+                                            <p>
+                                                Cá hồi nướng sốt chanh dây là sự
+                                                kết hợp tinh tế giữa vị béo ngậy
+                                                của cá hồi và vị chua ngọt của
+                                                chanh dây. Cá hồi được nướng
+                                                chín tới, giữ nguyên độ mềm và
+                                                mọng nước, sau đó được phủ một
+                                                lớp sốt chanh dây tươi mát, mang
+                                                lại cảm giác thanh nhẹ và lạ
+                                                miệng. Đây là lựa chọn tuyệt vời
+                                                cho những ai yêu thích hải sản
+                                                và muốn trải nghiệm hương vị mới
+                                                mẻ.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="col-lg-4 text-center order-1 order-lg-2"
+                                        >
+                                            <img
+                                                src="assets/img/menu/ca_hoi_nuong_sot_chanh_day.webp"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab-4">
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-8 details order-2 order-lg-1"
+                                        >
+                                            <h3>Gà Nướng Mật Ong</h3>
+                                            <p class="fst-italic">
+                                                Gà nướng vàng giòn với lớp mật
+                                                ong thơm ngọt, giữ được độ mọng
+                                                nước bên trong và thấm đều gia
+                                                vị.
+                                            </p>
+                                            <p>
+                                                Gà nướng mật ong là món chính
+                                                hấp dẫn với lớp da gà vàng giòn,
+                                                phủ lên lớp mật ong ngọt dịu và
+                                                gia vị đậm đà. Mỗi miếng gà đều
+                                                thấm đều vị ngọt của mật ong và
+                                                các loại gia vị, nhưng vẫn giữ
+                                                được độ mềm mọng của thịt. Món
+                                                này thường được phục vụ cùng rau
+                                                củ nướng hoặc salad để cân bằng
+                                                vị giác, là một lựa chọn hoàn
+                                                hảo cho bữa tiệc thịnh soạn.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="col-lg-4 text-center order-1 order-lg-2"
+                                        >
+                                            <img
+                                                src="assets/img/menu/ga_nuong_mat_ong.jpg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane" id="tab-5">
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-8 details order-2 order-lg-1"
+                                        >
+                                            <h3>Chè Khúc Bạch</h3>
+                                            <p class="fst-italic">
+                                                Chè thanh mát với thạch khúc
+                                                bạch mềm mịn, nước đường phèn
+                                                ngọt dịu và trái cây tươi.
+                                            </p>
+                                            <p>
+                                                Chè khúc bạch là món tráng miệng
+                                                yêu thích với hương vị thanh
+                                                mát, ngọt nhẹ. Thạch khúc bạch
+                                                được làm từ sữa tươi và hạnh
+                                                nhân, mềm mịn và béo nhẹ, kết
+                                                hợp với nước đường phèn thanh
+                                                ngọt. Món chè này thường được ăn
+                                                kèm với các loại trái cây tươi
+                                                như nhãn, vải hoặc kiwi, mang
+                                                đến cảm giác sảng khoái và không
+                                                quá ngọt sau bữa ăn.
+                                            </p>
+                                        </div>
+                                        <div
+                                            class="col-lg-4 text-center order-1 order-lg-2"
+                                        >
+                                            <img
+                                                src="assets/img/menu/che_khuc_bach.jpg"
+                                                alt=""
+                                                class="img-fluid"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Specials Section -->
+
+            <!-- ======= Events Section ======= -->
+            <section id="events" class="events">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Sự Kiện</h2>
+                        <p>Tổ Chức Các Sự Kiện Của Bạn Tại Hoàng Kim</p>
+                    </div>
+
+                    <div
+                        class="events-slider swiper-container"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="row event-item">
+                                    <div class="col-lg-6">
+                                        <img
+                                            src="assets/img/event-birthday.jpg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                        <h3>Bữa Tiệc Sinh Nhật</h3>
+                                        <div class="price">
+                                            <p><span>2.500.000VNĐ</span></p>
+                                        </div>
+                                        <p class="fst-italic">
+                                            Nhà hàng Hoàng Kim là nơi lý tưởng
+                                            để tổ chức tiệc sinh nhật với không
+                                            gian ấm cúng và sang trọng. Chúng
+                                            tôi cung cấp thực đơn đa dạng cho
+                                            6-8 người với các món ăn hấp dẫn và
+                                            dịch vụ tận tâm, giúp buổi tiệc của
+                                            bạn trở nên đặc biệt.
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Tặng một bánh sinh nhật miễn phí
+                                                cho bữa tiệc sinh nhật.
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Miễn phí trang trí bàn tiệc theo
+                                                chủ đề mà bạn chọn.
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Dịch vụ phục vụ chuyên nghiệp để
+                                                đảm bảo mọi nhu cầu của bạn được
+                                                đáp ứng.
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            Nếu bạn cần thêm điều chỉnh hoặc nội
+                                            dung khác, hãy cho tôi biết!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="row event-item">
+                                    <div class="col-lg-6">
+                                        <img
+                                            src="assets/img/event-private.jpg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                        <h3>Bữa Tiệc Riêng Tư</h3>
+                                        <div class="price">
+                                            <p><span>1.000.000VNĐ</span></p>
+                                        </div>
+                                        <p class="fst-italic">
+                                            Nhà hàng Hoàng Kim là lựa chọn hoàn
+                                            hảo cho các bữa tiệc riêng với không
+                                            gian ấm cúng và sang trọng. Chúng
+                                            tôi cung cấp thực đơn đa dạng cho
+                                            2-4 người với các món ăn ngon miệng,
+                                            giúp bữa tiệc của bạn trở nên đặc
+                                            biệt.
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Miễn phí nước uống cho mỗi khách
+                                                trong bữa tiệc
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Dịch vụ phục vụ chu đáo để đảm
+                                                bảo trải nghiệm của bạn hoàn
+                                                hảo.
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Hãy đến với chúng tôi để tổ chức
+                                                bữa tiệc riêng đáng nhớ! Chúng
+                                                tôi rất mong được phục vụ bạn và
+                                                mang đến những khoảnh khắc tuyệt
+                                                vời cho bạn và những người thân
+                                                yêu.
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            Nếu bạn cần thêm điều chỉnh hay có
+                                            yêu cầu khác, hãy cho tôi biết!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="row event-item">
+                                    <div class="col-lg-6">
+                                        <img
+                                            src="assets/img/event-custom.jpg"
+                                            class="img-fluid"
+                                            alt=""
+                                        />
+                                    </div>
+                                    <div class="col-lg-6 pt-4 pt-lg-0 content">
+                                        <h3>Custom Parties</h3>
+                                        <div class="price">
+                                            <p><span>3.000.000VNĐ</span></p>
+                                        </div>
+                                        <p class="fst-italic">
+                                            Nhà hàng Hoàng Kim cung cấp dịch vụ
+                                            bữa tiệc tùy chỉnh hoàn hảo cho các
+                                            dịp đặc biệt của bạn. Chúng tôi cho
+                                            phép bạn lựa chọn thực đơn theo ý
+                                            thích và tổ chức cho bất kỳ số lượng
+                                            khách nào với không gian linh hoạt
+                                            và sang trọng.
+                                        </p>
+                                        <ul>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Giảm giá 10% cho bàn từ 10 người
+                                                trở lên..
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Tặng một phần quà lưu niệm cho
+                                                mỗi khách trong bữa tiệc.
+                                            </li>
+                                            <li>
+                                                <i
+                                                    class="bi bi-check-circled"
+                                                ></i>
+                                                Dịch vụ trang trí theo chủ đề
+                                                bạn chọn mà không mất thêm phí.
+                                            </li>
+                                        </ul>
+                                        <p>
+                                            Nếu bạn cần thêm điều chỉnh hay có
+                                            yêu cầu khác, hãy cho tôi biết!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Events Section -->
+
+            <!-- ======= Book A Table Section ======= -->
+            <section id="book-a-table" class="book-a-table">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Đặt Bàn</h2>
+                        <p>Đặt Bàn Ngay !</p>
+                    </div>
+
+                    <form
+                        action="forms/book-a-table.php"
+                        method="post"
+                        role="form"
+                        class="php-email-form"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 form-group">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Tên"
+                                    data-rule="minlen:4"
+                                    data-msg="Please enter at least 4 chars"
+                                />
+                                <div class="validate"></div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"
+                            >
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    name="email"
+                                    id="email"
+                                    placeholder="Email"
+                                    data-rule="email"
+                                    data-msg="Please enter a valid email"
+                                />
+                                <div class="validate"></div>
+                            </div>
+                            <div
+                                class="col-lg-4 col-md-6 form-group mt-3 mt-md-0"
+                            >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="phone"
+                                    id="phone"
+                                    placeholder="Số Điện Thoại"
+                                    data-rule="minlen:4"
+                                    data-msg="Please enter at least 4 chars"
+                                />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 form-group mt-3">
+                                <input
+                                    type="date"
+                                    name="date"
+                                    class="form-control"
+                                    id="date"
+                                    placeholder="Ngày"
+                                    data-rule="minlen:4"
+                                    data-msg="Please enter at least 4 chars"
+                                />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 form-group mt-3">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    name="time"
+                                    id="time"
+                                    placeholder="Số người"
+                                    data-rule="minlen:1"
+                                    data-msg="Please enter at least 4 chars"
+                                />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 form-group mt-3">
+                                <select
+                                    class="form-control form-select"
+                                    name="table"
+                                    id="table"
+                                    data-rule="minlen:1"
+                                    placeholder="Chọn Bàn"
+                                    data-msg="Please select an option"
+                                >
+                                    <option value="" disabled selected>
+                                        Bàn đang trống
+                                    </option>
+                                    <option value="1">Bàn 1</option>
+                                    <option value="2">Bàn 2</option>
+                                    <option value="3">Bàn 3</option>
+                                    <option value="4">Bàn 4</option>
+                                    <option value="5">Bàn 5</option>
+                                    <option value="6">Bàn 6</option>
+                                    <option value="7">Bàn 7</option>
+                                    <option value="8">Bàn 8</option>
+                                    <option value="9">Bàn 9</option>
+                                    <option value="10">Bàn 10</option>
+                                </select>
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea
+                                class="form-control"
+                                name="message"
+                                rows="5"
+                                placeholder="Nội Dung"
+                            ></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">
+                                Your booking request was sent. We will call back
+                                or send an Email to confirm your reservation.
+                                Thank you!
+                            </div>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Đặt Ngay !</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <!-- End Book A Table Section -->
+
+            <!-- ======= Testimonials Section ======= -->
+            <section id="testimonials" class="testimonials section-bg">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Đánh Giá</h2>
+                        <p>Đánh giá của những khách hàng đã trải nghiệm</p>
+                    </div>
+
+                    <div
+                        class="testimonials-slider swiper-container"
+                        data-aos="fade-up"
+                        data-aos-delay="100"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i
+                                            class="bx bxs-quote-alt-left quote-icon-left"
+                                        ></i>
+                                        Mình rất thích không gian ấm cúng và
+                                        sang trọng của nhà hàng. Đồ ăn ở đây rất
+                                        ngon, đặc biệt là món Bò lúc lắc mềm và
+                                        thấm gia vị. Phục vụ rất chu đáo và tận
+                                        tình. Mình sẽ quay lại nhiều lần nữa!
+                                        <i
+                                            class="bx bxs-quote-alt-right quote-icon-right"
+                                        ></i>
+                                    </p>
+                                    <img
+                                        src="assets/img/testimonials/testimonials-1.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Nguyễn Lan Anh</h3>
+                                    <h4>Nhân Viên Văn Phòng</h4>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i
+                                            class="bx bxs-quote-alt-left quote-icon-left"
+                                        ></i>
+                                        Lần đầu tiên đến đây đã rất ấn tượng với
+                                        Cá hồi nướng sốt chanh dây. Cá nướng vừa
+                                        tới, giữ nguyên vị tươi và sốt chanh dây
+                                        thì thật tuyệt vời. Dịch vụ nhanh chóng
+                                        và nhân viên rất lịch sự. Món tráng
+                                        miệng Chè khúc bạch cũng rất ngon.
+                                        <i
+                                            class="bx bxs-quote-alt-right quote-icon-right"
+                                        ></i>
+                                    </p>
+                                    <img
+                                        src="assets/img/testimonials/testimonials-2.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Trần Văn Khánh</h3>
+                                    <h4>Kỹ Sư Xây Dựng</h4>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i
+                                            class="bx bxs-quote-alt-left quote-icon-left"
+                                        ></i>
+                                        Món Súp bắp cua của nhà hàng rất ngon,
+                                        vị ngọt thanh và thơm nhẹ. Không gian
+                                        nhà hàng rất phù hợp để tổ chức các buổi
+                                        tiệc gia đình. Tôi rất hài lòng với dịch
+                                        vụ và chất lượng món ăn tại đây.
+                                        <i
+                                            class="bx bxs-quote-alt-right quote-icon-right"
+                                        ></i>
+                                    </p>
+                                    <img
+                                        src="assets/img/testimonials/testimonials-3.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Lê Minh Phương</h3>
+                                    <h4>Giảng viên đại họcr</h4>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i
+                                            class="bx bxs-quote-alt-left quote-icon-left"
+                                        ></i>
+                                        Tôi thường xuyên tổ chức các buổi gặp gỡ
+                                        đối tác tại nhà hàng này. Món ăn luôn
+                                        được chế biến kỹ lưỡng và đẹp mắt, đặc
+                                        biệt là Gà nướng mật ong. Món ăn có sự
+                                        kết hợp tinh tế giữa vị ngọt của mật ong
+                                        và độ mềm của gà. Nhà hàng thực sự xứng
+                                        đáng với đẳng cấp của nó.
+                                        <i
+                                            class="bx bxs-quote-alt-right quote-icon-right"
+                                        ></i>
+                                    </p>
+                                    <img
+                                        src="assets/img/testimonials/testimonials-4.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Vũ Thị Mai</h3>
+                                    <h4>Doanh nhân</h4>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+
+                            <div class="swiper-slide">
+                                <div class="testimonial-item">
+                                    <p>
+                                        <i
+                                            class="bx bxs-quote-alt-left quote-icon-left"
+                                        ></i>
+                                        Mình rất thích sự bày trí và ánh sáng
+                                        tại nhà hàng, rất phù hợp để chụp ảnh.
+                                        Món ăn thì cực kỳ ngon, mình đặc biệt ấn
+                                        tượng với Chè khúc bạch mát lạnh, ngọt
+                                        dịu vừa phải. Rất đáng để quay lại!
+                                        <i
+                                            class="bx bxs-quote-alt-right quote-icon-right"
+                                        ></i>
+                                    </p>
+                                    <img
+                                        src="assets/img/testimonials/testimonials-5.jpg"
+                                        class="testimonial-img"
+                                        alt=""
+                                    />
+                                    <h3>Phạm Quang Huy</h3>
+                                    <h4>Nhiếp ảnh gia</h4>
+                                </div>
+                            </div>
+                            <!-- End testimonial item -->
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Testimonials Section -->
+
+            <!-- ======= Gallery Section ======= -->
+            <section id="gallery" class="gallery">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Hình Ảnh</h2>
+                        <p>Một vài hình ảnh về Hoàng Kim</p>
+                    </div>
+                </div>
+
+                <div
+                    class="container-fluid"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                >
+                    <div class="row g-0">
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-1.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-1.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-2.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-2.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-3.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-3.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-4.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-4.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-5.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-5.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-6.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-6.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-7.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-7.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-4">
+                            <div class="gallery-item">
+                                <a
+                                    href="assets/img/gallery/gallery-8.jpg"
+                                    class="gallery-lightbox"
+                                    data-gall="gallery-item"
+                                >
+                                    <img
+                                        src="assets/img/gallery/gallery-8.jpg"
+                                        alt=""
+                                        class="img-fluid"
+                                    />
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Gallery Section -->
+
+            <!-- ======= Chefs Section ======= -->
+            <section id="chefs" class="chefs">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Đầu Bếp</h2>
+                        <p>Các Đầu Bếp Chuyên Nghiệp</p>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div
+                                class="member"
+                                data-aos="zoom-in"
+                                data-aos-delay="100"
+                            >
+                                <img
+                                    src="assets/img/chefs/chefs-1.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                />
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>Walter White</h4>
+                                        <span>Master Chef</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""
+                                            ><i class="bi bi-twitter"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-facebook"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-instagram"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-linkedin"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div
+                                class="member"
+                                data-aos="zoom-in"
+                                data-aos-delay="200"
+                            >
+                                <img
+                                    src="assets/img/chefs/chefs-2.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                />
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>Sarah Jhonson</h4>
+                                        <span>Patissier</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""
+                                            ><i class="bi bi-twitter"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-facebook"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-instagram"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-linkedin"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6">
+                            <div
+                                class="member"
+                                data-aos="zoom-in"
+                                data-aos-delay="300"
+                            >
+                                <img
+                                    src="assets/img/chefs/chefs-3.jpg"
+                                    class="img-fluid"
+                                    alt=""
+                                />
+                                <div class="member-info">
+                                    <div class="member-info-content">
+                                        <h4>William Anderson</h4>
+                                        <span>Cook</span>
+                                    </div>
+                                    <div class="social">
+                                        <a href=""
+                                            ><i class="bi bi-twitter"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-facebook"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-instagram"></i
+                                        ></a>
+                                        <a href=""
+                                            ><i class="bi bi-linkedin"></i
+                                        ></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Chefs Section -->
+
+            <!-- ======= Contact Section ======= -->
+            <section id="contact" class="contact">
+                <div class="container" data-aos="fade-up">
+                    <div class="section-title">
+                        <h2>Liên Hệ</h2>
+                        <p>Liện Hệ với Hoàng Kim</p>
+                    </div>
+                </div>
+
+                <div data-aos="fade-up">
+                    <iframe
+                        style="border: 0; width: 100%; height: 350px"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1862.1325367464249!2d105.8521587!3d21.022077200000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aba6d28cec17%3A0xd95a19476bb83395!2zTmjDoCBow6F0IEjhu5MgR8awxqFt!5e0!3m2!1svi!2sus!4v1728466792341!5m2!1svi!2sus"
+                        frameborder="0"
+                        allowfullscreen
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+
+                <div class="container" data-aos="fade-up">
+                    <div class="row mt-5">
+                        <div class="col-lg-4">
+                            <div class="info">
+                                <div class="address">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h4>Địa chỉ:</h4>
+                                    <p>
+                                        40 Phố Hàng Bài, Hoàn Kiếm, Hà Nội, Việt
+                                        Nam.
+                                    </p>
+                                </div>
+
+                                <div class="open-hours">
+                                    <i class="bi bi-clock"></i>
+                                    <h4>Giờ mở cửa:</h4>
+                                    <p>
+                                        Thứ Hai-Chủ Nhật:<br />
+                                        11:00 AM - 2300 PM
+                                    </p>
+                                </div>
+
+                                <div class="email">
+                                    <i class="bi bi-envelope"></i>
+                                    <h4>Email:</h4>
+                                    <p>hoangkim@restaurant.com</p>
+                                </div>
+
+                                <div class="phone">
+                                    <i class="bi bi-phone"></i>
+                                    <h4>Gọi:</h4>
+                                    <p>033 678 9051</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-8 mt-5 mt-lg-0">
+                            <form
+                                action="forms/contact.php"
+                                method="post"
+                                role="form"
+                                class="php-email-form"
+                            >
+                                <div class="row">
+                                    <div class="col-md-6 form-group">
+                                        <input
+                                            type="text"
+                                            name="name"
+                                            class="form-control"
+                                            id="name"
+                                            placeholder="Tên"
+                                            required
+                                        />
+                                    </div>
+                                    <div
+                                        class="col-md-6 form-group mt-3 mt-md-0"
+                                    >
+                                        <input
+                                            type="email"
+                                            class="form-control"
+                                            name="email"
+                                            id="email"
+                                            placeholder="Email"
+                                            required
+                                        />
+                                    </div>
+                                </div>
+                                <div class="form-group mt-3">
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        name="subject"
+                                        id="subject"
+                                        placeholder="Vấn đề"
+                                        required
+                                    />
+                                </div>
+                                <div class="form-group mt-3">
+                                    <textarea
+                                        class="form-control"
+                                        name="message"
+                                        rows="8"
+                                        placeholder="Nội Dung"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <div class="my-3">
+                                    <div class="loading">Đang chò</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">
+                                        Lời nhắn của bạn đã gửi thành công, Xin
+                                        cảm ơn!
+                                    </div>
+                                </div>
+                                <div class="text-center">
+                                    <button type="submit">Gửi</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact Section -->
+        </main>
+        <!-- End #main -->
+
+        <!-- ======= Footer ======= -->
+        <footer id="footer">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-info">
+                                <h3>Hoàng KIm</h3>
+                                <p>
+                                    40 Phố Hàng Bài<br />
+                                    Hoàn Kiếm, Hà Nội, Việt Nam<br /><br />
+                                    <strong>Số Điện Thoại:</strong> 033 678
+                                    9051<br />
+                                    <strong>Email:</strong>
+                                    hoangkim@restaurant.com<br />
+                                </p>
+                                <div class="social-links mt-3">
+                                    <a href="#" class="twitter"
+                                        ><i class="bx bxl-twitter"></i
+                                    ></a>
+                                    <a href="#" class="facebook"
+                                        ><i class="bx bxl-facebook"></i
+                                    ></a>
+                                    <a href="#" class="instagram"
+                                        ><i class="bx bxl-instagram"></i
+                                    ></a>
+                                    <a href="#" class="google-plus"
+                                        ><i class="bx bxl-skype"></i
+                                    ></a>
+                                    <a href="#" class="linkedin"
+                                        ><i class="bx bxl-linkedin"></i
+                                    ></a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Home</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">About us</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Services</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Terms of service</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Privacy policy</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Web Design</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Web Development</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Product Management</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Marketing</a>
+                                </li>
+                                <li>
+                                    <i class="bx bx-chevron-right"></i>
+                                    <a href="#">Graphic Design</a>
+                                </li>
+                            </ul>
+                        </div> -->
+
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Thông Báo</h4>
+                            <p>
+                                Hãy đăng ký bằng địa chỉ email để nhận các thông
+                                tin mới nhất của Hoàng Kim
+                            </p>
+                            <form action="" method="post">
+                                <input type="email" name="email" /><input
+                                    type="submit"
+                                    value="Đăng Ký"
+                                />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Hoàng Kim</span></strong
+                    >. All Rights Reserved
+                </div>
+                <!-- <div class="credits"> -->
+                <!-- All the links in the footer should remain intact. -->
+                <!-- You can delete the links only if you purchased the pro version. -->
+                <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/restaurantly-restaurant-template/ -->
+                <!-- Designed by
+                    <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                </div> -->
+            </div>
+        </footer>
+        <!-- End Footer -->
+
+        <div id="preloader"></div>
+        <a
+            href="#"
+            class="back-to-top d-flex align-items-center justify-content-center"
+            ><i class="bi bi-arrow-up-short"></i
+        ></a>
+
+        <!-- Vendor JS Files -->
+        <script src="assets/vendor/aos/aos.js"></script>
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+        <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+        <script src="assets/vendor/php-email-form/validate.js"></script>
+        <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Template Main JS File -->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
